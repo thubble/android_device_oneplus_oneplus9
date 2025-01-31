@@ -128,9 +128,9 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
-# Build kernel using system (Gentoo) clang-18
+# Build kernel using AOSP clang-18
 KERNEL_CUSTOM_LLVM := true
-KERNEL_CUSTOM_LLVM_PATH := /usr/lib/llvm/18
+KERNEL_CUSTOM_LLVM_PATH := prebuilts/clang/host/linux-x86/clang-r522817
 KERNEL_FULL_LLVM := true
 
 # Lineage Health
