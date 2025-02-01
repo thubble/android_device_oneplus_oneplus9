@@ -130,7 +130,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 # Build kernel using AOSP clang-18
 KERNEL_CUSTOM_LLVM := true
-KERNEL_CUSTOM_LLVM_PATH := prebuilts/clang/host/linux-x86/clang-r522817
+KERNEL_CUSTOM_LLVM_PATH := $(PWD)/prebuilts/clang/host/linux-x86/clang-r522817
 KERNEL_FULL_LLVM := true
 
 # Lineage Health
